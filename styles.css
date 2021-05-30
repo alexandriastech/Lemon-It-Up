@@ -58,6 +58,8 @@ header {
   justify-content: space-between;
   flex-direction: row;
   margin-bottom: 15px;
+  /* FIXES issue with header being under elements */
+  z-index: 9;
 }
 /* header ^^*/
 
